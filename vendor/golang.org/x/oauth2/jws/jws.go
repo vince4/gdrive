@@ -12,7 +12,7 @@
 // removed in the future. It exists for internal use only.
 // Please switch to another JWS package or copy this package into your own
 // source tree.
-package jws
+package jws // import "golang.org/x/oauth2/jws"
 
 import (
 	"bytes"
@@ -178,5 +178,5 @@ func Verify(token string, key *rsa.PublicKey) error {
 
 	h := sha256.New()
 	h.Write([]byte(signedContent))
-	return rsa.VerifyPKCS1v15(key, crypto.SHA256, h.Sum(nil), []byte(signatureString))
+	return rsa.VerifyPKCS1v15(key, crypto.SHA256, h.Sum(nil), signatureString)
 }
