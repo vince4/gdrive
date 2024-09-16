@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/petrpulc/gdrive/drive"
+	"github.com/vince4/gdrive/drive"
 	"os"
 )
 

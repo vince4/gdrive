@@ -32,7 +32,7 @@ You will be prompted for a new verification code if the folder does not exist.
 
 ## Compile from source
 ```bash
-go get github.com/petrpulc/gdrive
+go get github.com/vince4/gdrive
 ```
 The gdrive binary should now be available at `$GOPATH/bin/gdrive`
 
