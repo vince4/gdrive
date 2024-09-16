@@ -8,7 +8,7 @@ import (
 )
 
 const Name = "gdrive-vince-fork"
-const Version = "2.1.1"
+const Version = "0.1.1"
 
 const DefaultMaxFiles = 30
 const DefaultMaxChanges = 100
