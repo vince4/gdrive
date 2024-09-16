@@ -7,8 +7,8 @@ import (
 	"github.com/vince4/gdrive/cli"
 )
 
-const Name = "gdrive"
-const Version = "2.1.0"
+const Name = "gdrive-vince-fork"
+const Version = "2.1.1"
 
 const DefaultMaxFiles = 30
 const DefaultMaxChanges = 100

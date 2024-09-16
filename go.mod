@@ -1,10 +1,11 @@
-module github.com/vince4/gdrive
+module github.com/vince4/gdrive-vince-fork
 
 go 1.23.1
 
 require (
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
 	github.com/soniakeys/graph v0.0.0
+	github.com/vince4/gdrive v0.0.0-20240916134952-953875e51c51
 	golang.org/x/net v0.29.0
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/api v0.197.0
