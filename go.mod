@@ -1,6 +1,6 @@
 module github.com/vince4/gdrive-vince-fork
 
-go 1.23.1
+go 1.22.3
 
 require (
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
